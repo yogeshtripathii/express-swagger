@@ -12,7 +12,7 @@ const options = {
 
     servers: [
       {
-        url: "https://express-swagger.onrender.com/api/v1",
+        url: process.env.SERVER_URL
       },
     ],
 
